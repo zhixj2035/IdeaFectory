@@ -21,8 +21,8 @@
 
     <!-- 模块说明：这里声明多个子模块 -->
     <modules>
-        <module>connectmysql</module>
         <module>helloSpringBoot</module>
+        <module>connectmysql</module>
     </modules>
 
     <!-- 属性说明 -->
