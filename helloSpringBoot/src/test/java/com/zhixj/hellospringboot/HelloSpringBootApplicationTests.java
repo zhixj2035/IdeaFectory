@@ -1,10 +1,10 @@
-package com.example.zxj;
+package com.zhixj.hellospringboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SsmBuildApplicationTests {
+class HelloSpringBootApplicationTests {
 
     @Test
     void contextLoads() {

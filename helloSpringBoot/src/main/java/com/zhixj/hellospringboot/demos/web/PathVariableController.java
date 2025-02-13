@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.zxj.demos.web;
+package com.zhixj.hellospringboot.demos.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

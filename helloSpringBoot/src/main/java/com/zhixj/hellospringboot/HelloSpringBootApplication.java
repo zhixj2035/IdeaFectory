@@ -1,4 +1,4 @@
-package com.example.zxj;
+package com.zhixj.hellospringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,15 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SsmBuildApplication {
+public class HelloSpringBootApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SsmBuildApplication.class, args);
+        SpringApplication.run(HelloSpringBootApplication.class, args);
     }
 
-    @GetMapping("/")
-    public String getHi(){
-        return "Hi";
+    @GetMapping("/hello")
+    public String hi(){
+        return "Hello SpringBoot";
     }
-
 }
