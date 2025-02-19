@@ -23,6 +23,7 @@
     <modules>
         <module>helloSpringBoot</module>
         <module>connectmysql</module>
+        <module>connectredis</module>
     </modules>
 
     <!-- 属性说明 -->
